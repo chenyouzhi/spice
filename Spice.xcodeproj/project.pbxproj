@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C205FE401CBF9F5A008A6CEB /* LQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE1E1CBF9F5A008A6CEB /* LQHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C205FE411CBF9F5A008A6CEB /* LQJoketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE231CBF9F5A008A6CEB /* LQJoketViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C205FE421CBF9F5A008A6CEB /* LQMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE2A1CBF9F5A008A6CEB /* LQMainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C205FE431CBF9F5A008A6CEB /* LQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE2C1CBF9F5A008A6CEB /* LQNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		C205FE441CBF9F5A008A6CEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE311CBF9F5A008A6CEB /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		C205FE451CBF9F5A008A6CEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE321CBF9F5A008A6CEB /* main.m */; settings = {ASSET_TAGS = (); }; };
+		C205FE461CBF9F5A008A6CEB /* LQMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE371CBF9F5A008A6CEB /* LQMineViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C205FE471CBF9F5A008A6CEB /* LQVedioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE3D1CBF9F5A008A6CEB /* LQVedioViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C2606F841CBE87B1007A82F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2606F831CBE87B1007A82F1 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C205FE171CBF8873008A6CEB /* Spice.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spice.pch; sourceTree = "<group>"; };
+		C205FE191CBF8F9B008A6CEB /* URLSpice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLSpice.h; sourceTree = "<group>"; };
+		C205FE1D1CBF9F5A008A6CEB /* LQHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQHomeViewController.h; sourceTree = "<group>"; };
+		C205FE1E1CBF9F5A008A6CEB /* LQHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQHomeViewController.m; sourceTree = "<group>"; };
+		C205FE231CBF9F5A008A6CEB /* LQJoketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQJoketViewController.m; sourceTree = "<group>"; };
+		C205FE241CBF9F5A008A6CEB /* LQJokeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQJokeViewController.h; sourceTree = "<group>"; };
+		C205FE291CBF9F5A008A6CEB /* LQMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQMainViewController.h; sourceTree = "<group>"; };
+		C205FE2A1CBF9F5A008A6CEB /* LQMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQMainViewController.m; sourceTree = "<group>"; };
+		C205FE2B1CBF9F5A008A6CEB /* LQNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQNavigationController.h; sourceTree = "<group>"; };
+		C205FE2C1CBF9F5A008A6CEB /* LQNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQNavigationController.m; sourceTree = "<group>"; };
+		C205FE301CBF9F5A008A6CEB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C205FE311CBF9F5A008A6CEB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C205FE321CBF9F5A008A6CEB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C205FE361CBF9F5A008A6CEB /* LQMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQMineViewController.h; sourceTree = "<group>"; };
+		C205FE371CBF9F5A008A6CEB /* LQMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQMineViewController.m; sourceTree = "<group>"; };
+		C205FE3C1CBF9F5A008A6CEB /* LQVedioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQVedioViewController.h; sourceTree = "<group>"; };
+		C205FE3D1CBF9F5A008A6CEB /* LQVedioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQVedioViewController.m; sourceTree = "<group>"; };
+		C2606F741CBE87B1007A82F1 /* Spice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2606F831CBE87B1007A82F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2606F881CBE87B1007A82F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2606F711CBE87B1007A82F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C205FE1A1CBF9F5A008A6CEB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C205FE1B1CBF9F5A008A6CEB /* Home */,
+				C205FE211CBF9F5A008A6CEB /* Joke */,
+				C205FE271CBF9F5A008A6CEB /* Main */,
+				C205FE341CBF9F5A008A6CEB /* Mine */,
+				C205FE3A1CBF9F5A008A6CEB /* Vedio */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C205FE1B1CBF9F5A008A6CEB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C205FE1C1CBF9F5A008A6CEB /* Controller */,
+				C205FE1F1CBF9F5A008A6CEB /* Model */,
+				C205FE201CBF9F5A008A6CEB /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C205FE1C1CBF9F5A008A6CEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C205FE1D1CBF9F5A008A6CEB /* LQHomeViewController.h */,
+				C205FE1E1CBF9F5A008A6CEB /* LQHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C205FE1F1CBF9F5A008A6CEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C205FE201CBF9F5A008A6CEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C205FE211CBF9F5A008A6CEB /* Joke */ = {
+			isa = PBXGroup;
+			children = (
+				C205FE221CBF9F5A008A6CEB /* Controller */,
+				C205FE251CBF9F5A008A6CEB /* Model */,
+				C205FE261CBF9F5A008A6CEB /* View */,
+			);
+			path = Joke;
+			sourceTree = "<group>";
+		};
+		C205FE221CBF9F5A008A6CEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C205FE241CBF9F5A008A6CEB /* LQJokeViewController.h */,
+				C205FE231CBF9F5A008A6CEB /* LQJoketViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C205FE251CBF9F5A008A6CEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C205FE261CBF9F5A008A6CEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C205FE271CBF9F5A008A6CEB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C205FE281CBF9F5A008A6CEB /* Controller */,
+				C205FE2D1CBF9F5A008A6CEB /* Lib */,
+				C205FE2E1CBF9F5A008A6CEB /* Model */,
+				C205FE2F1CBF9F5A008A6CEB /* Other */,
+				C205FE331CBF9F5A008A6CEB /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C205FE281CBF9F5A008A6CEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C205FE291CBF9F5A008A6CEB /* LQMainViewController.h */,
+				C205FE2A1CBF9F5A008A6CEB /* LQMainViewController.m */,
+				C205FE2B1CBF9F5A008A6CEB /* LQNavigationController.h */,
+				C205FE2C1CBF9F5A008A6CEB /* LQNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C205FE2D1CBF9F5A008A6CEB /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		C205FE2E1CBF9F5A008A6CEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C205FE2F1CBF9F5A008A6CEB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C205FE301CBF9F5A008A6CEB /* AppDelegate.h */,
+				C205FE311CBF9F5A008A6CEB /* AppDelegate.m */,
+				C205FE321CBF9F5A008A6CEB /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C205FE331CBF9F5A008A6CEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C205FE341CBF9F5A008A6CEB /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				C205FE351CBF9F5A008A6CEB /* Controller */,
+				C205FE381CBF9F5A008A6CEB /* Model */,
+				C205FE391CBF9F5A008A6CEB /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		C205FE351CBF9F5A008A6CEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C205FE361CBF9F5A008A6CEB /* LQMineViewController.h */,
+				C205FE371CBF9F5A008A6CEB /* LQMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C205FE381CBF9F5A008A6CEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C205FE391CBF9F5A008A6CEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C205FE3A1CBF9F5A008A6CEB /* Vedio */ = {
+			isa = PBXGroup;
+			children = (
+				C205FE3B1CBF9F5A008A6CEB /* Controller */,
+				C205FE3E1CBF9F5A008A6CEB /* Model */,
+				C205FE3F1CBF9F5A008A6CEB /* View */,
+			);
+			path = Vedio;
+			sourceTree = "<group>";
+		};
+		C205FE3B1CBF9F5A008A6CEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C205FE3C1CBF9F5A008A6CEB /* LQVedioViewController.h */,
+				C205FE3D1CBF9F5A008A6CEB /* LQVedioViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C205FE3E1CBF9F5A008A6CEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C205FE3F1CBF9F5A008A6CEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2606F6B1CBE87B1007A82F1 = {
+			isa = PBXGroup;
+			children = (
+				C2606F761CBE87B1007A82F1 /* Spice */,
+				C2606F751CBE87B1007A82F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2606F751CBE87B1007A82F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2606F741CBE87B1007A82F1 /* Spice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2606F761CBE87B1007A82F1 /* Spice */ = {
+			isa = PBXGroup;
+			children = (
+				C205FE1A1CBF9F5A008A6CEB /* Classes */,
+				C2606F771CBE87B1007A82F1 /* Supporting Files */,
+			);
+			path = Spice;
+			sourceTree = "<group>";
+		};
+		C2606F771CBE87B1007A82F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2606F831CBE87B1007A82F1 /* Assets.xcassets */,
+				C2606F881CBE87B1007A82F1 /* Info.plist */,
+				C205FE171CBF8873008A6CEB /* Spice.pch */,
+				C205FE191CBF8F9B008A6CEB /* URLSpice.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2606F731CBE87B1007A82F1 /* Spice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2606F8B1CBE87B1007A82F1 /* Build configuration list for PBXNativeTarget "Spice" */;
+			buildPhases = (
+				C2606F701CBE87B1007A82F1 /* Sources */,
+				C2606F711CBE87B1007A82F1 /* Frameworks */,
+				C2606F721CBE87B1007A82F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spice;
+			productName = Spice;
+			productReference = C2606F741CBE87B1007A82F1 /* Spice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2606F6C1CBE87B1007A82F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LQ;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = spice;
+				TargetAttributes = {
+					C2606F731CBE87B1007A82F1 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = C2606F6F1CBE87B1007A82F1 /* Build configuration list for PBXProject "Spice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2606F6B1CBE87B1007A82F1;
+			productRefGroup = C2606F751CBE87B1007A82F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2606F731CBE87B1007A82F1 /* Spice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2606F721CBE87B1007A82F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2606F841CBE87B1007A82F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2606F701CBE87B1007A82F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C205FE461CBF9F5A008A6CEB /* LQMineViewController.m in Sources */,
+				C205FE431CBF9F5A008A6CEB /* LQNavigationController.m in Sources */,
+				C205FE401CBF9F5A008A6CEB /* LQHomeViewController.m in Sources */,
+				C205FE411CBF9F5A008A6CEB /* LQJoketViewController.m in Sources */,
+				C205FE421CBF9F5A008A6CEB /* LQMainViewController.m in Sources */,
+				C205FE471CBF9F5A008A6CEB /* LQVedioViewController.m in Sources */,
+				C205FE451CBF9F5A008A6CEB /* main.m in Sources */,
+				C205FE441CBF9F5A008A6CEB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C2606F891CBE87B1007A82F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2606F8A1CBE87B1007A82F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2606F8C1CBE87B1007A82F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Spice/Spice.pch";
+				INFOPLIST_FILE = Spice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spice.Spice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C2606F8D1CBE87B1007A82F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Spice/Spice.pch";
+				INFOPLIST_FILE = Spice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spice.Spice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2606F6F1CBE87B1007A82F1 /* Build configuration list for PBXProject "Spice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2606F891CBE87B1007A82F1 /* Debug */,
+				C2606F8A1CBE87B1007A82F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2606F8B1CBE87B1007A82F1 /* Build configuration list for PBXNativeTarget "Spice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2606F8C1CBE87B1007A82F1 /* Debug */,
+				C2606F8D1CBE87B1007A82F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2606F6C1CBE87B1007A82F1 /* Project object */;
+}
