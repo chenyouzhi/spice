@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LQVedioCell">
+            <connections>
+                <outlet property="commentCountButton" destination="H2o-o3-INJ" id="Z5m-2c-4fX"/>
+                <outlet property="playCountButton" destination="4Uf-FI-heb" id="9L8-zL-7nw"/>
+                <outlet property="titleLabel" destination="DrD-Hw-hFm" id="Q63-xi-7ey"/>
+                <outlet property="vedioImage" destination="RPz-NN-NIJ" id="Hq8-9N-7hT"/>
+                <outlet property="vontButton" destination="fY2-Op-8xL" id="fZo-Ez-bSx"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="Jr6-hQ-XAH">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Jr6-hQ-XAH" id="E1Y-qT-jyf">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="299"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RPz-NN-NIJ">
+                        <rect key="frame" x="28" y="18" width="358" height="200"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="iht-Im-ILa"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DrD-Hw-hFm">
+                        <rect key="frame" x="28" y="233" width="358" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fY2-Op-8xL">
+                        <rect key="frame" x="28" y="264" width="60" height="30"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="42P-pV-Ewk"/>
+                            <constraint firstAttribute="height" constant="30" id="X9x-HS-4O5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="赞" image="good_best_32.926315789474px_1156985_easyicon.net">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Uf-FI-heb">
+                        <rect key="frame" x="326" y="264" width="60" height="30"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="gDy-fm-3zK"/>
+                            <constraint firstAttribute="width" constant="60" id="hdq-Yx-hzP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
+                        <state key="normal" title="观看" image="collection">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2o-o3-INJ">
+                        <rect key="frame" x="157" y="264" width="100" height="30"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="KCS-Uz-kzM"/>
+                            <constraint firstAttribute="height" constant="30" id="lJU-U6-Qcd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="评论" image="Comments_32px_1179904_easyicon.net">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="RPz-NN-NIJ" secondAttribute="trailing" constant="20" id="34i-wX-ao3"/>
+                    <constraint firstItem="DrD-Hw-hFm" firstAttribute="top" secondItem="RPz-NN-NIJ" secondAttribute="bottom" constant="15" id="6oo-TX-yLi"/>
+                    <constraint firstItem="RPz-NN-NIJ" firstAttribute="top" secondItem="E1Y-qT-jyf" secondAttribute="topMargin" constant="10" id="6xl-dW-tkk"/>
+                    <constraint firstItem="4Uf-FI-heb" firstAttribute="top" secondItem="DrD-Hw-hFm" secondAttribute="bottom" constant="10" id="Iv3-V9-du3"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="DrD-Hw-hFm" secondAttribute="trailing" constant="20" id="LG0-03-Kdl"/>
+                    <constraint firstItem="H2o-o3-INJ" firstAttribute="centerX" secondItem="RPz-NN-NIJ" secondAttribute="centerX" id="S6f-1L-KU3"/>
+                    <constraint firstItem="H2o-o3-INJ" firstAttribute="top" secondItem="DrD-Hw-hFm" secondAttribute="bottom" constant="10" id="XlI-Q0-9bT"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="4Uf-FI-heb" secondAttribute="trailing" constant="20" id="c4m-uB-sBV"/>
+                    <constraint firstItem="DrD-Hw-hFm" firstAttribute="leading" secondItem="E1Y-qT-jyf" secondAttribute="leadingMargin" constant="20" id="duu-K1-a55"/>
+                    <constraint firstItem="fY2-Op-8xL" firstAttribute="leading" secondItem="E1Y-qT-jyf" secondAttribute="leadingMargin" constant="20" id="hMl-Um-Slo"/>
+                    <constraint firstItem="fY2-Op-8xL" firstAttribute="top" secondItem="DrD-Hw-hFm" secondAttribute="bottom" constant="10" id="qIk-gA-jCn"/>
+                    <constraint firstItem="RPz-NN-NIJ" firstAttribute="leading" secondItem="E1Y-qT-jyf" secondAttribute="leadingMargin" constant="20" id="tR2-jG-dWT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <point key="canvasLocation" x="333" y="317"/>
+        </tableViewCell>
+        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bQ5-wu-XMs">
+            <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <animations/>
+            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+            <nil key="highlightedColor"/>
+            <point key="canvasLocation" x="381" y="527.5"/>
+        </label>
+    </objects>
+    <resources>
+        <image name="Comments_32px_1179904_easyicon.net" width="32" height="32"/>
+        <image name="collection" width="32" height="32"/>
+        <image name="good_best_32.926315789474px_1156985_easyicon.net" width="32" height="31"/>
+    </resources>
+</document>
