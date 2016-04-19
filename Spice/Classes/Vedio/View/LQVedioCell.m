@@ -19,23 +19,24 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *playCountButton;
 
+
 @property (weak, nonatomic) IBOutlet UIButton *commentCountButton;
+
+
 @end
 
 
 @implementation LQVedioCell
 
-- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
-    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
-        
-        [self.vedioImage sd_setImageWithURL:[NSURL URLWithString:self.vedio.image] placeholderImage:nil];
-        self.titleLabel.text = self.vedio.title;
-        [self.vontButton setTitle:[NSString stringWithFormat:@"%@",self.vedio.vote_count] forState:UIControlStateNormal];
-        [self.playCountButton setTitle:[NSString stringWithFormat:@"%@",self.vedio.play_count] forState:UIControlStateNormal];
-        [self.commentCountButton setTitle:[NSString stringWithFormat:@"%@",self.vedio.comment_count] forState:UIControlStateNormal];
-        
-    }
-    return self;
+- (void)setVedio:(LQVedion *)vedio{
+    _vedio = vedio;
+
+    [self.vedioImage sd_setImageWithURL:[NSURL URLWithString:self.vedio.image] placeholderImage:nil];
+    self.titleLabel.text = self.vedio.title;
+    [self.vontButton setTitle:[NSString stringWithFormat:@"%@",self.vedio.vote_count] forState:UIControlStateNormal];
+    [self.playCountButton setTitle:[NSString stringWithFormat:@"%@",self.vedio.play_count] forState:UIControlStateNormal];
+    [self.commentCountButton setTitle:[NSString stringWithFormat:@"%@",self.vedio.comment_count] forState:UIControlStateNormal];
+    
 }
 
 
@@ -43,10 +44,15 @@
     static NSString *reuseID = @"cell";
     LQVedioCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseID];
     if (cell == nil) {
-        cell = [[LQVedioCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseID];
+        cell = [[[NSBundle mainBundle] loadNibNamed:@"LQVedioCell" owner:nil options:nil] firstObject];
     }
     return cell;
 }
+
+
+
+
+
 
 
 

@@ -15,9 +15,9 @@
 
 
 #ifdef DEBUG //处于开发阶段
-#define SQLog(...)NSLog(__VA_ARGS__)
+#define LQLog(...)NSLog(__VA_ARGS__)
 #else //处于发布阶段
-#define SQLog(...)
+#define LQLog(...)
 #endif
 
 
@@ -26,6 +26,8 @@
 
 //随机色
 #define LQRandomColor LQColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+#import "LQNetWoringRequestManager.h"
 
 
 #endif /* Spice_pch */
