@@ -16,6 +16,10 @@
 		C205FE461CBF9F5A008A6CEB /* LQMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE371CBF9F5A008A6CEB /* LQMineViewController.m */; };
 		C205FE471CBF9F5A008A6CEB /* LQVedioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE3D1CBF9F5A008A6CEB /* LQVedioViewController.m */; };
 		C2606F841CBE87B1007A82F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2606F831CBE87B1007A82F1 /* Assets.xcassets */; };
+		C26504301CC5DCEC00E5CE55 /* LQJokeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C265042F1CC5DCEC00E5CE55 /* LQJokeTableViewController.m */; };
+		C26504341CC5DD0E00E5CE55 /* LQtJokeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C26504321CC5DD0E00E5CE55 /* LQtJokeTableViewCell.m */; };
+		C26504351CC5DD0E00E5CE55 /* LQtJokeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C26504331CC5DD0E00E5CE55 /* LQtJokeTableViewCell.xib */; };
+		C265043B1CC6145000E5CE55 /* LQModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C265043A1CC6145000E5CE55 /* LQModel.m */; };
 		C29D062F1CC095970018D347 /* LQVedion.m in Sources */ = {isa = PBXBuildFile; fileRef = C29D062E1CC095970018D347 /* LQVedion.m */; };
 		C29D06321CC09A570018D347 /* LQVedioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C29D06311CC09A570018D347 /* LQVedioCell.m */; };
 		C29D06341CC09A650018D347 /* LQVedioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C29D06331CC09A650018D347 /* LQVedioCell.xib */; };
@@ -46,6 +50,13 @@
 		C2606F741CBE87B1007A82F1 /* Spice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2606F831CBE87B1007A82F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2606F881CBE87B1007A82F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C265042E1CC5DCEC00E5CE55 /* LQJokeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQJokeTableViewController.h; sourceTree = "<group>"; };
+		C265042F1CC5DCEC00E5CE55 /* LQJokeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQJokeTableViewController.m; sourceTree = "<group>"; };
+		C26504311CC5DD0E00E5CE55 /* LQtJokeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LQtJokeTableViewCell.h; path = Spice/Classes/Joke/Controller/LQtJokeTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		C26504321CC5DD0E00E5CE55 /* LQtJokeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LQtJokeTableViewCell.m; path = Spice/Classes/Joke/Controller/LQtJokeTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		C26504331CC5DD0E00E5CE55 /* LQtJokeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LQtJokeTableViewCell.xib; path = Spice/Classes/Joke/Controller/LQtJokeTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		C26504391CC6145000E5CE55 /* LQModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQModel.h; sourceTree = "<group>"; };
+		C265043A1CC6145000E5CE55 /* LQModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQModel.m; sourceTree = "<group>"; };
 		C29D062D1CC095970018D347 /* LQVedion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQVedion.h; sourceTree = "<group>"; };
 		C29D062E1CC095970018D347 /* LQVedion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQVedion.m; sourceTree = "<group>"; };
 		C29D06301CC09A570018D347 /* LQVedioCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQVedioCell.h; sourceTree = "<group>"; };
@@ -130,8 +141,8 @@
 		C205FE211CBF9F5A008A6CEB /* Joke */ = {
 			isa = PBXGroup;
 			children = (
+				C265043C1CC6146200E5CE55 /* model */,
 				C205FE221CBF9F5A008A6CEB /* Controller */,
-				C205FE251CBF9F5A008A6CEB /* Model */,
 				C205FE261CBF9F5A008A6CEB /* View */,
 			);
 			path = Joke;
@@ -142,20 +153,18 @@
 			children = (
 				C205FE241CBF9F5A008A6CEB /* LQJokeViewController.h */,
 				C205FE231CBF9F5A008A6CEB /* LQJoketViewController.m */,
+				C265042E1CC5DCEC00E5CE55 /* LQJokeTableViewController.h */,
+				C265042F1CC5DCEC00E5CE55 /* LQJokeTableViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		C205FE251CBF9F5A008A6CEB /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		C205FE261CBF9F5A008A6CEB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C26504311CC5DD0E00E5CE55 /* LQtJokeTableViewCell.h */,
+				C26504321CC5DD0E00E5CE55 /* LQtJokeTableViewCell.m */,
+				C26504331CC5DD0E00E5CE55 /* LQtJokeTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -323,6 +332,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C265043C1CC6146200E5CE55 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C26504391CC6145000E5CE55 /* LQModel.h */,
+				C265043A1CC6145000E5CE55 /* LQModel.m */,
+			);
+			name = model;
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -385,6 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C29D06341CC09A650018D347 /* LQVedioCell.xib in Resources */,
+				C26504351CC5DD0E00E5CE55 /* LQtJokeTableViewCell.xib in Resources */,
 				C2606F841CBE87B1007A82F1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,12 +464,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C26504301CC5DCEC00E5CE55 /* LQJokeTableViewController.m in Sources */,
 				C205FE461CBF9F5A008A6CEB /* LQMineViewController.m in Sources */,
+				C26504341CC5DD0E00E5CE55 /* LQtJokeTableViewCell.m in Sources */,
 				C205FE431CBF9F5A008A6CEB /* LQNavigationController.m in Sources */,
 				C205FE401CBF9F5A008A6CEB /* LQHomeViewController.m in Sources */,
 				C205FE411CBF9F5A008A6CEB /* LQJoketViewController.m in Sources */,
 				C29D06321CC09A570018D347 /* LQVedioCell.m in Sources */,
 				C205FE421CBF9F5A008A6CEB /* LQMainViewController.m in Sources */,
+				C265043B1CC6145000E5CE55 /* LQModel.m in Sources */,
 				C205FE471CBF9F5A008A6CEB /* LQVedioViewController.m in Sources */,
 				C29D062F1CC095970018D347 /* LQVedion.m in Sources */,
 				C205FE451CBF9F5A008A6CEB /* main.m in Sources */,

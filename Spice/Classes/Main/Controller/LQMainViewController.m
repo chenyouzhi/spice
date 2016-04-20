@@ -9,7 +9,7 @@
 #import "LQMainViewController.h"
 #import "LQNavigationController.h"
 #import "LQHomeViewController.h"
-#import "LQJokeViewController.h"
+#import "LQJokeTableViewController.h"
 #import "LQMineViewController.h"
 #import "LQVedioViewController.h"
 @interface LQMainViewController ()
@@ -25,7 +25,7 @@
     [self addChildVC:home title:@"首页" image:@"tabbar_home" selectedImage:@"tabbar_home_selected"];
     LQVedioViewController *vedio = [[LQVedioViewController alloc] init];
     [self addChildVC:vedio title:@"视频" image:@"tabbar_discover" selectedImage:@"tabbar_discoverHL"];
-    LQJokeViewController *joke = [[LQJokeViewController alloc] init];
+    LQJokeTableViewController *joke = [[LQJokeTableViewController alloc] init];
     [self addChildVC:joke title:@"段子" image:@"tabbar_message_center" selectedImage:@"tabbar_message_center_selected"];
     LQMineViewController *mine = [[LQMineViewController alloc] init];
     [self addChildVC:mine title:@"我" image:@"tabbar_profile" selectedImage:@"tabbar_profile_selected"];
