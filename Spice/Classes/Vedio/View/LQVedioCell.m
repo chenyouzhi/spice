@@ -15,27 +15,39 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 
-@property (weak, nonatomic) IBOutlet UIButton *vontButton;
+@property (weak, nonatomic) IBOutlet UILabel *vontLabel;
 
-@property (weak, nonatomic) IBOutlet UIButton *playCountButton;
 
-@property (weak, nonatomic) IBOutlet UIButton *commentCountButton;
+@property (weak, nonatomic) IBOutlet UILabel *playCountLabel;
+
+
+@property (weak, nonatomic) IBOutlet UILabel *commentCountLabel;
+
+@property (weak, nonatomic) IBOutlet UIButton *playButton;
+
+
 @end
 
 
 @implementation LQVedioCell
 
-- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
-    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
-        
-        [self.vedioImage sd_setImageWithURL:[NSURL URLWithString:self.vedio.image] placeholderImage:nil];
-        self.titleLabel.text = self.vedio.title;
-        [self.vontButton setTitle:[NSString stringWithFormat:@"%@",self.vedio.vote_count] forState:UIControlStateNormal];
-        [self.playCountButton setTitle:[NSString stringWithFormat:@"%@",self.vedio.play_count] forState:UIControlStateNormal];
-        [self.commentCountButton setTitle:[NSString stringWithFormat:@"%@",self.vedio.comment_count] forState:UIControlStateNormal];
-        
-    }
-    return self;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated{
+    [super setSelected:selected animated:animated];
+}
+
+
+- (void)setVedio:(LQVedion *)vedio{
+    _vedio = vedio;
+    self.selectionStyle = UITableViewCellSelectionStyleNone;
+
+    [self.vedioImage sd_setImageWithURL:[NSURL URLWithString:self.vedio.image] placeholderImage:nil];
+    self.titleLabel.text = self.vedio.title;
+//    self.titleLabel.text = @"hhgghgfgfg";
+//    self.titleLabel.backgroundColor = [UIColor redColor];
+    self.playCountLabel.text = [NSString stringWithFormat:@"%@", self.vedio.play_count];
+    self.commentCountLabel.text = [NSString stringWithFormat:@"%@", self.vedio.comment_count];
+    self.vontLabel.text = [NSString stringWithFormat:@"%@", self.vedio.vote_count];
+
 }
 
 
@@ -43,10 +55,16 @@
     static NSString *reuseID = @"cell";
     LQVedioCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseID];
     if (cell == nil) {
-        cell = [[LQVedioCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseID];
+        cell = [[[NSBundle mainBundle] loadNibNamed:@"LQVedioCell" owner:nil options:nil] firstObject];
     }
     return cell;
 }
+
+
+
+
+
+
 
 
 
