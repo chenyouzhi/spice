@@ -10,8 +10,8 @@
 #define URLSpice_h
 
 //1,首页
-#define FIRSTLIST_URL @"http://toutiao.com/ma/?media_id=5234320301&count=10&max_behot_time=0&callback=jsonp1&csrfmiddlewaretoken=undefined&_=1460604968522"
-
+#define FIRSTLIST_URL @"http://toutiao.com/ma/"
+//csrfmiddlewaretoken=undefined
 
 //2,视频
 #define VEDIOLIST_URL @"http://dailyapi.ibaozou.com/api/v1/videos/latest"

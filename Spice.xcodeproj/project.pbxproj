@@ -7,22 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C205FE401CBF9F5A008A6CEB /* LQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE1E1CBF9F5A008A6CEB /* LQHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
-		C205FE411CBF9F5A008A6CEB /* LQJoketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE231CBF9F5A008A6CEB /* LQJoketViewController.m */; settings = {ASSET_TAGS = (); }; };
-		C205FE421CBF9F5A008A6CEB /* LQMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE2A1CBF9F5A008A6CEB /* LQMainViewController.m */; settings = {ASSET_TAGS = (); }; };
-		C205FE431CBF9F5A008A6CEB /* LQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE2C1CBF9F5A008A6CEB /* LQNavigationController.m */; settings = {ASSET_TAGS = (); }; };
-		C205FE441CBF9F5A008A6CEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE311CBF9F5A008A6CEB /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		C205FE451CBF9F5A008A6CEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE321CBF9F5A008A6CEB /* main.m */; settings = {ASSET_TAGS = (); }; };
-		C205FE461CBF9F5A008A6CEB /* LQMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE371CBF9F5A008A6CEB /* LQMineViewController.m */; settings = {ASSET_TAGS = (); }; };
-		C205FE471CBF9F5A008A6CEB /* LQVedioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE3D1CBF9F5A008A6CEB /* LQVedioViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0AFC93D95C9FA34182A9B82C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8F793EE5ED6B0EDE9710AF /* libPods.a */; };
+		C205FE411CBF9F5A008A6CEB /* LQJoketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE231CBF9F5A008A6CEB /* LQJoketViewController.m */; };
+		C205FE421CBF9F5A008A6CEB /* LQMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE2A1CBF9F5A008A6CEB /* LQMainViewController.m */; };
+		C205FE431CBF9F5A008A6CEB /* LQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE2C1CBF9F5A008A6CEB /* LQNavigationController.m */; };
+		C205FE441CBF9F5A008A6CEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE311CBF9F5A008A6CEB /* AppDelegate.m */; };
+		C205FE451CBF9F5A008A6CEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE321CBF9F5A008A6CEB /* main.m */; };
+		C205FE461CBF9F5A008A6CEB /* LQMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE371CBF9F5A008A6CEB /* LQMineViewController.m */; };
+		C205FE471CBF9F5A008A6CEB /* LQVedioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205FE3D1CBF9F5A008A6CEB /* LQVedioViewController.m */; };
+		C215332B1CC625330082AA3D /* LQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21533291CC625330082AA3D /* LQHomeViewController.m */; };
+		C215332C1CC625330082AA3D /* LQHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C215332A1CC625330082AA3D /* LQHomeViewController.xib */; };
+		C21533301CC63E440082AA3D /* NetWorkRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C215332F1CC63E440082AA3D /* NetWorkRequestManager.m */; };
 		C2606F841CBE87B1007A82F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2606F831CBE87B1007A82F1 /* Assets.xcassets */; };
+		C28A32301CC5DE3A002D1BAE /* LQHomeListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C28A322F1CC5DE3A002D1BAE /* LQHomeListModel.m */; };
+		C28A32351CC5E2A9002D1BAE /* LQHomeListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C28A32331CC5E2A9002D1BAE /* LQHomeListTableViewCell.m */; };
+		C28A32361CC5E2A9002D1BAE /* LQHomeListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C28A32341CC5E2A9002D1BAE /* LQHomeListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3602662ED8E19DF5476B1E45 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5A229ACAAA82DEC23DAA800A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8B8F793EE5ED6B0EDE9710AF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C205FE171CBF8873008A6CEB /* Spice.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spice.pch; sourceTree = "<group>"; };
 		C205FE191CBF8F9B008A6CEB /* URLSpice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLSpice.h; sourceTree = "<group>"; };
-		C205FE1D1CBF9F5A008A6CEB /* LQHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQHomeViewController.h; sourceTree = "<group>"; };
-		C205FE1E1CBF9F5A008A6CEB /* LQHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQHomeViewController.m; sourceTree = "<group>"; };
 		C205FE231CBF9F5A008A6CEB /* LQJoketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQJoketViewController.m; sourceTree = "<group>"; };
 		C205FE241CBF9F5A008A6CEB /* LQJokeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQJokeViewController.h; sourceTree = "<group>"; };
 		C205FE291CBF9F5A008A6CEB /* LQMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQMainViewController.h; sourceTree = "<group>"; };
@@ -36,9 +43,19 @@
 		C205FE371CBF9F5A008A6CEB /* LQMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQMineViewController.m; sourceTree = "<group>"; };
 		C205FE3C1CBF9F5A008A6CEB /* LQVedioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQVedioViewController.h; sourceTree = "<group>"; };
 		C205FE3D1CBF9F5A008A6CEB /* LQVedioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQVedioViewController.m; sourceTree = "<group>"; };
+		C21533281CC625330082AA3D /* LQHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQHomeViewController.h; sourceTree = "<group>"; };
+		C21533291CC625330082AA3D /* LQHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQHomeViewController.m; sourceTree = "<group>"; };
+		C215332A1CC625330082AA3D /* LQHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQHomeViewController.xib; sourceTree = "<group>"; };
+		C215332E1CC63E440082AA3D /* NetWorkRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkRequestManager.h; sourceTree = "<group>"; };
+		C215332F1CC63E440082AA3D /* NetWorkRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkRequestManager.m; sourceTree = "<group>"; };
 		C2606F741CBE87B1007A82F1 /* Spice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2606F831CBE87B1007A82F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2606F881CBE87B1007A82F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28A322E1CC5DE3A002D1BAE /* LQHomeListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQHomeListModel.h; sourceTree = "<group>"; };
+		C28A322F1CC5DE3A002D1BAE /* LQHomeListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQHomeListModel.m; sourceTree = "<group>"; };
+		C28A32321CC5E2A9002D1BAE /* LQHomeListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQHomeListTableViewCell.h; sourceTree = "<group>"; };
+		C28A32331CC5E2A9002D1BAE /* LQHomeListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQHomeListTableViewCell.m; sourceTree = "<group>"; };
+		C28A32341CC5E2A9002D1BAE /* LQHomeListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQHomeListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,12 +63,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AFC93D95C9FA34182A9B82C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85B273BD96B4EEC0DF2A580C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3602662ED8E19DF5476B1E45 /* Pods.debug.xcconfig */,
+				5A229ACAAA82DEC23DAA800A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7876CD2F2D931BCB0A7F3A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B8F793EE5ED6B0EDE9710AF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C205FE1A1CBF9F5A008A6CEB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -67,9 +102,9 @@
 		C205FE1B1CBF9F5A008A6CEB /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				C28A32311CC5DE52002D1BAE /* View */,
+				C28A322D1CC5DE2D002D1BAE /* Model */,
 				C205FE1C1CBF9F5A008A6CEB /* Controller */,
-				C205FE1F1CBF9F5A008A6CEB /* Model */,
-				C205FE201CBF9F5A008A6CEB /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -77,24 +112,11 @@
 		C205FE1C1CBF9F5A008A6CEB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C205FE1D1CBF9F5A008A6CEB /* LQHomeViewController.h */,
-				C205FE1E1CBF9F5A008A6CEB /* LQHomeViewController.m */,
+				C21533281CC625330082AA3D /* LQHomeViewController.h */,
+				C21533291CC625330082AA3D /* LQHomeViewController.m */,
+				C215332A1CC625330082AA3D /* LQHomeViewController.xib */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		C205FE1F1CBF9F5A008A6CEB /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		C205FE201CBF9F5A008A6CEB /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		C205FE211CBF9F5A008A6CEB /* Joke */ = {
@@ -250,11 +272,22 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		C215332D1CC63E010082AA3D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C215332E1CC63E440082AA3D /* NetWorkRequestManager.h */,
+				C215332F1CC63E440082AA3D /* NetWorkRequestManager.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
 		C2606F6B1CBE87B1007A82F1 = {
 			isa = PBXGroup;
 			children = (
 				C2606F761CBE87B1007A82F1 /* Spice */,
 				C2606F751CBE87B1007A82F1 /* Products */,
+				85B273BD96B4EEC0DF2A580C /* Pods */,
+				A7876CD2F2D931BCB0A7F3A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -269,6 +302,7 @@
 		C2606F761CBE87B1007A82F1 /* Spice */ = {
 			isa = PBXGroup;
 			children = (
+				C215332D1CC63E010082AA3D /* Tools */,
 				C205FE1A1CBF9F5A008A6CEB /* Classes */,
 				C2606F771CBE87B1007A82F1 /* Supporting Files */,
 			);
@@ -286,6 +320,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C28A322D1CC5DE2D002D1BAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C28A322E1CC5DE3A002D1BAE /* LQHomeListModel.h */,
+				C28A322F1CC5DE3A002D1BAE /* LQHomeListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C28A32311CC5DE52002D1BAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C28A32321CC5E2A9002D1BAE /* LQHomeListTableViewCell.h */,
+				C28A32331CC5E2A9002D1BAE /* LQHomeListTableViewCell.m */,
+				C28A32341CC5E2A9002D1BAE /* LQHomeListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -293,9 +346,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2606F8B1CBE87B1007A82F1 /* Build configuration list for PBXNativeTarget "Spice" */;
 			buildPhases = (
+				19B990BBA0DF66922867A07B /* Check Pods Manifest.lock */,
 				C2606F701CBE87B1007A82F1 /* Sources */,
 				C2606F711CBE87B1007A82F1 /* Frameworks */,
 				C2606F721CBE87B1007A82F1 /* Resources */,
+				1540D5B3439299BB7CEEDAB1 /* Embed Pods Frameworks */,
+				CA00FED35092A38EE056964C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -345,10 +401,60 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2606F841CBE87B1007A82F1 /* Assets.xcassets in Resources */,
+				C215332C1CC625330082AA3D /* LQHomeViewController.xib in Resources */,
+				C28A32361CC5E2A9002D1BAE /* LQHomeListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1540D5B3439299BB7CEEDAB1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19B990BBA0DF66922867A07B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA00FED35092A38EE056964C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C2606F701CBE87B1007A82F1 /* Sources */ = {
@@ -357,10 +463,13 @@
 			files = (
 				C205FE461CBF9F5A008A6CEB /* LQMineViewController.m in Sources */,
 				C205FE431CBF9F5A008A6CEB /* LQNavigationController.m in Sources */,
-				C205FE401CBF9F5A008A6CEB /* LQHomeViewController.m in Sources */,
 				C205FE411CBF9F5A008A6CEB /* LQJoketViewController.m in Sources */,
 				C205FE421CBF9F5A008A6CEB /* LQMainViewController.m in Sources */,
+				C215332B1CC625330082AA3D /* LQHomeViewController.m in Sources */,
+				C21533301CC63E440082AA3D /* NetWorkRequestManager.m in Sources */,
+				C28A32301CC5DE3A002D1BAE /* LQHomeListModel.m in Sources */,
 				C205FE471CBF9F5A008A6CEB /* LQVedioViewController.m in Sources */,
+				C28A32351CC5E2A9002D1BAE /* LQHomeListTableViewCell.m in Sources */,
 				C205FE451CBF9F5A008A6CEB /* main.m in Sources */,
 				C205FE441CBF9F5A008A6CEB /* AppDelegate.m in Sources */,
 			);
@@ -451,6 +560,7 @@
 		};
 		C2606F8C1CBE87B1007A82F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3602662ED8E19DF5476B1E45 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
@@ -470,6 +580,7 @@
 		};
 		C2606F8D1CBE87B1007A82F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A229ACAAA82DEC23DAA800A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;

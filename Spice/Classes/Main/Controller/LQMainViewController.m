@@ -41,6 +41,7 @@
     childVC.title = title;
     //设置子控制器图片
     childVC.tabBarItem = [[UITabBarItem alloc] initWithTitle:title image:[[UIImage imageNamed:image] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:[[UIImage imageNamed:selectedImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+    
     //设置文字样式
     NSMutableDictionary *textAtrrs = [NSMutableDictionary dictionary];
     textAtrrs[NSForegroundColorAttributeName] = LQColor(120, 120, 120);
