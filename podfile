@@ -1,1 +1,5 @@
 pod 'SDWebImage', '~> 3.7.5'
+<<<<<<< HEAD
+=======
+pod 'AFNetworking', '~> 3.1.0'
+>>>>>>> 0452e8b63f09e14a4116b7bf8be673e772048b1b
