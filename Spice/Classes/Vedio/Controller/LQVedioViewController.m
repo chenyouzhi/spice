@@ -52,13 +52,12 @@
     
     [self.view addSubview:self.vedioTbaleView];
     
-//    self.vedioTbaleView.rowHeight = 350;
-    
-//    [self.vedioTbaleView registerNib:[UINib nibWithNibName:@"LQVedioCell" bundle:nil] forCellReuseIdentifier:@"cell"];
-    
-    [self.vedioTbaleView registerClass:[LQVedioCell class] forCellReuseIdentifier:@"cell"];
+    self.vedioTbaleView.rowHeight = 300;
     
     
+
+    
+    [self.vedioTbaleView registerNib:[UINib nibWithNibName:@"LQVedioCell" bundle:nil] forCellReuseIdentifier:@"cell"];
     
     //下拉刷新
     [self.vedioTbaleView addHeaderWithTarget:self action:@selector(loadMoreData)];
@@ -127,25 +126,25 @@
 
 //给出预估高度
 - (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 200;
+    return 300;
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    id model = self.dataArray[indexPath.row];
-    return [self.vedioTbaleView cellHeightForIndexPath:indexPath model:model keyPath:@"model" cellClass:[LQVedioCell class] contentViewWidth:[self cellContentViewWith]];
-}
+//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+//    id model = self.dataArray[indexPath.row];
+//    return [self.vedioTbaleView cellHeightForIndexPath:indexPath model:model keyPath:@"model" cellClass:[LQVedioCell class] contentViewWidth:[self cellContentViewWith]];
+//}
 
-
-- (CGFloat)cellContentViewWith
-{
-    CGFloat width = [UIScreen mainScreen].bounds.size.width;
-    
-    // 适配ios7
-    if ([UIApplication sharedApplication].statusBarOrientation != UIInterfaceOrientationPortrait && [[UIDevice currentDevice].systemVersion floatValue] < 8) {
-        width = [UIScreen mainScreen].bounds.size.height;
-    }
-    return width;
-}
+//
+//- (CGFloat)cellContentViewWith
+//{
+//    CGFloat width = [UIScreen mainScreen].bounds.size.width;
+//    
+//    // 适配ios7
+//    if ([UIApplication sharedApplication].statusBarOrientation != UIInterfaceOrientationPortrait && [[UIDevice currentDevice].systemVersion floatValue] < 8) {
+//        width = [UIScreen mainScreen].bounds.size.height;
+//    }
+//    return width;
+//}
 
 
 
