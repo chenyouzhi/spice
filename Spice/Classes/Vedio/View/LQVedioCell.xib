@@ -14,67 +14,31 @@
                 <rect key="frame" x="0.0" y="0.0" width="414" height="299"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-<<<<<<< HEAD
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RPz-NN-NIJ">
-                        <rect key="frame" x="28" y="18" width="358" height="200"/>
-=======
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="恋爱中的女生竟然是这样子的" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2L-LH-HLj">
                         <rect key="frame" x="13" y="13" width="388" height="50"/>
-                        <animations/>
->>>>>>> 15db9b822e728b2907062a4849ee80ea5afd9203
                         <constraints>
                             <constraint firstAttribute="height" constant="50" id="GH0-5P-klp"/>
                         </constraints>
-<<<<<<< HEAD
-                    </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DrD-Hw-hFm">
-                        <rect key="frame" x="28" y="233" width="358" height="21"/>
-=======
->>>>>>> 15db9b822e728b2907062a4849ee80ea5afd9203
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-<<<<<<< HEAD
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fY2-Op-8xL">
-                        <rect key="frame" x="28" y="264" width="60" height="30"/>
-=======
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Nsw-an-kTc">
                         <rect key="frame" x="8" y="68" width="398" height="200"/>
-                        <animations/>
->>>>>>> 15db9b822e728b2907062a4849ee80ea5afd9203
                         <constraints>
                             <constraint firstAttribute="height" constant="200" id="8RC-SR-1ah"/>
                         </constraints>
-<<<<<<< HEAD
-                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        <state key="normal" title="赞" image="good_best_32.926315789474px_1156985_easyicon.net">
-                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                        </state>
-                    </button>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Uf-FI-heb">
-                        <rect key="frame" x="326" y="264" width="60" height="30"/>
-=======
                     </imageView>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLf-EK-CtU">
                         <rect key="frame" x="174" y="118" width="66" height="64"/>
-                        <animations/>
->>>>>>> 15db9b822e728b2907062a4849ee80ea5afd9203
                         <constraints>
                             <constraint firstAttribute="width" constant="66" id="Fvj-fP-sld"/>
                             <constraint firstAttribute="height" constant="64" id="gGY-tH-cWU"/>
                         </constraints>
                         <state key="normal" image="video_play_btn_bg.png"/>
                     </button>
-<<<<<<< HEAD
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2o-o3-INJ">
-                        <rect key="frame" x="157" y="264" width="100" height="30"/>
-=======
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="good_best_32.926315789474px_1156985_easyicon.net" translatesAutoresizingMaskIntoConstraints="NO" id="Fhy-B4-8M9">
                         <rect key="frame" x="18" y="276" width="20" height="20"/>
-                        <animations/>
->>>>>>> 15db9b822e728b2907062a4849ee80ea5afd9203
                         <constraints>
                             <constraint firstAttribute="height" constant="20" id="DsK-Vw-uAE"/>
                             <constraint firstAttribute="width" constant="20" id="FkV-i1-hjg"/>
@@ -82,7 +46,6 @@
                     </imageView>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="playcount.png" translatesAutoresizingMaskIntoConstraints="NO" id="h3Z-r6-Gg5">
                         <rect key="frame" x="146" y="276" width="20" height="20"/>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="width" constant="20" id="Age-dM-wIj"/>
                             <constraint firstAttribute="height" constant="20" id="f4B-PQ-P7I"/>
@@ -90,7 +53,6 @@
                     </imageView>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Comments_32px_1179904_easyicon.net" translatesAutoresizingMaskIntoConstraints="NO" id="F6D-ob-GCY">
                         <rect key="frame" x="274" y="276" width="20" height="20"/>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="height" constant="20" id="Wp3-IV-LVG"/>
                             <constraint firstAttribute="width" constant="20" id="bPK-ll-SdU"/>
@@ -98,7 +60,6 @@
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1500" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Obq-Rm-zzF">
                         <rect key="frame" x="46" y="276" width="40" height="20"/>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="width" constant="40" id="byl-xi-LVu"/>
                             <constraint firstAttribute="height" constant="20" id="dBv-rX-bHb"/>
@@ -109,7 +70,6 @@
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FAf-dQ-HEb">
                         <rect key="frame" x="174" y="276" width="40" height="20"/>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="width" constant="40" id="XK5-DQ-vAG"/>
                             <constraint firstAttribute="height" constant="20" id="gRE-g5-QtY"/>
@@ -120,7 +80,6 @@
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="npX-98-ULu">
                         <rect key="frame" x="302" y="276" width="40" height="20"/>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="width" constant="40" id="CNC-k7-yuV"/>
                             <constraint firstAttribute="height" constant="20" id="iqs-xx-3A2"/>
@@ -131,7 +90,6 @@
                     </label>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IgY-uU-73e">
                         <rect key="frame" x="8" y="8" width="398" height="1"/>
-                        <animations/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="1" id="exJ-pe-a71"/>
@@ -164,19 +122,6 @@
                     <constraint firstItem="npX-98-ULu" firstAttribute="top" secondItem="Nsw-an-kTc" secondAttribute="bottom" constant="8" id="xf7-m0-hgD"/>
                 </constraints>
             </tableViewCellContentView>
-<<<<<<< HEAD
-            <point key="canvasLocation" x="333" y="317"/>
-        </tableViewCell>
-        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bQ5-wu-XMs">
-            <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-            <nil key="highlightedColor"/>
-            <point key="canvasLocation" x="381" y="527.5"/>
-        </label>
-=======
-            <animations/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <connections>
                 <outlet property="commentCountLabel" destination="npX-98-ULu" id="x9o-HW-8U2"/>
@@ -188,7 +133,6 @@
             </connections>
             <point key="canvasLocation" x="333" y="318"/>
         </tableViewCell>
->>>>>>> 15db9b822e728b2907062a4849ee80ea5afd9203
     </objects>
     <resources>
         <image name="Comments_32px_1179904_easyicon.net" width="32" height="32"/>
